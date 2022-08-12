@@ -1,0 +1,15 @@
+int subtractProductAndSum(int n){
+    int p=1,s=0,r,result;
+    while(n!=0)
+    {
+        r=n%10;
+        p=p*r;
+        s=s+r;
+        n=n/10;
+
+    }
+    result=p-s;
+    printf("%d",result);
+    return result;
+    
+}
