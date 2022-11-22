@@ -1,0 +1,7 @@
+>>> a=int(input('enter a:'))
+enter a:15
+>>> b=int(input('enter b:'))
+enter b:10
+>>> c=a-b
+>>> print(c)
+5
