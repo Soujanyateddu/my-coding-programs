@@ -1,0 +1,16 @@
+##max and min elements from list without library functions
+
+n=int(input('Enter how many numbers: '))
+l=list(map(int,input().split()))
+maxi=l[0]
+mini=l[0]
+for i in range(1,n):
+    if mini>l[i]:
+        mini=l[i]
+    if maxi<l[i]:
+        maxi=l[i]
+print('Maximum element is',maxi)
+print('Minimum element is',mini)
+
+
+
