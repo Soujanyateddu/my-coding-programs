@@ -1,0 +1,15 @@
+##positive elements one side and negative elements one side
+n=int(input())
+l=list(map(int,input().split()))
+nl=[]
+pl=[]
+for i in range(0,n):
+    if l[i]<0:
+        nl.append(l[i])
+    else:
+        pl.append(l[i])
+fl=pl+nl
+for i in range(0,n):
+    print(fl[i],end=' ')
+
+
