@@ -1,0 +1,15 @@
+##even elements one side and odd elements to other side
+n=int(input())
+l=list(map(int,input().split()))
+el=[]
+ol=[]
+for i in range(0,n):
+    if l[i]%2!=0:
+        ol.append(l[i])
+    else:
+        el.append(l[i])
+fl=ol+el
+for i in range(0,n):
+    print(fl[i],end=' ')
+
+
