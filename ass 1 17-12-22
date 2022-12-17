@@ -1,0 +1,11 @@
+##string operations
+str=input("Enter a string:")
+length=len(str)
+print("No.of characters=",length)
+str1=input("Enter string in small letters:")
+print(str1.upper())
+str2=input("Enter string in capital letters:")
+print(str2.lower())
+str3=input("Enter string:")
+print(str3.swapcase())
+
