@@ -1,0 +1,9 @@
+#Write a program to print square root of the given number.
+#If square root is greater than 10,print 'Hello' otherwise
+ #print 'Hi'
+n=int(input())
+result=n**0.5
+if result>10:
+    print("Hello")
+else:
+    print("Hi")
