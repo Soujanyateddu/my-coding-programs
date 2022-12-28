@@ -1,0 +1,14 @@
+#element is found in the list or not and display with index values
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input("Enter an element to search:"))
+flag=0
+for i in range(0,n):
+    if l[i]==x:
+        flag=1
+        break
+if flag==1:
+    print("Element is found at index",i)
+else:
+    print("Element is not found")
+
