@@ -1,0 +1,13 @@
+#element is found in the list or not and display with index values and outputs
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input("Enter an element to search:"))
+flag=0
+for i in range(0,n):
+    if l[i]==x:
+        flag=flag+1
+        print(i,end=' ')
+if flag==0:
+    print(-1)
+
+        
