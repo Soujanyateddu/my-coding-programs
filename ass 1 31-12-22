@@ -1,0 +1,10 @@
+#hackerrank right rotation
+n,d=list(map(int,input().split()))
+l=list(map(int,input().split()))
+for i in range(d):
+    last=l[n-1]
+    for j in range(n-1,0,-1):
+        l[j]=l[j-1]
+    l[0]=last
+for i in l:
+    print(i,end=' ')
